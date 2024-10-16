@@ -31,7 +31,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     <div className="flex h-screen bg-background text-neutral">
       {/* Sidebar */}
       <div
-        className={`bg-primary  fixed top-0 left-0 h-full transition-all duration-300 ${
+        className={`bg-primary text-white fixed top-0 left-0 h-full transition-all duration-300 ${
           isOpen ? "w-64" : "w-16"
         } flex flex-col justify-between`}
       >
@@ -96,7 +96,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <div className="flex items-center justify-center p-4">
               <button
                 onClick={handleLogout}
-                className="flex items-center px-4 py-2  hover:bg-red-100 transition duration-300"
+                className="flex items-center px-4 py-2  hover:bg-secondary transition duration-300"
               >
                 <FiLogOut className="text-2xl" />
                 {isOpen && <span className="ml-4 text-lg">Logout</span>}

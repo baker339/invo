@@ -11,7 +11,7 @@ const InvoiceLoopSVG = () => {
         className="animate-spin"
       >
         <path
-          fill="#FF9F1C" // Document color
+          fill="#9CC5A1" // Document color
           d="M30 10 L30 80 L70 80 L70 20 L50 10 Z"
         />
         <path
@@ -23,7 +23,7 @@ const InvoiceLoopSVG = () => {
           y="60"
           fontSize="20"
           textAnchor="middle"
-          fill="#2EC4B6" // Dollar sign color
+          fill="#216869" // Dollar sign color
           fontWeight="bold"
         >
           $
